@@ -5,13 +5,12 @@ Tienes dos arrays, uno con nombres de estudiantes y otro con sus respectivas not
 
 let estudiantes = ["Ana", "Juan", "María", "Pedro", "Lucía"];
 let notas = [
-    [7, 8, 6, 9, 5],  // Notas de Ana
-    [6, 4, 5, 7, 6],  // Notas de Juan
-    [8, 9, 7, 7, 8],  // Notas de María
-    [5, 6, 4, 6, 5],  // Notas de Pedro
-    [6, 8, 7, 8, 7]   // Notas de Lucía
+    [7, 8, 6, 9, 5],  
+    [6, 4, 5, 7, 6],  
+    [8, 9, 7, 7, 8],  
+    [5, 6, 4, 6, 5],  
+    [6, 8, 7, 8, 7],   
 ];
-
 
 function calcularPromedioPorEstudiante(estudiante) {
     let indice = estudiantes.indexOf(estudiante);

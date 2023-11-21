@@ -4,7 +4,7 @@ perimetro: suma de los lados
 area: alto por ancho
 */
 
-class Rectangulos {
+class Rectangulo {
     constructor(alto, ancho){
         this.alto = alto;
         this.ancho = ancho;
@@ -13,6 +13,6 @@ class Rectangulos {
     }
 }
 
-const primerRectangulo = new Rectangulos(10, 15)
+const primerRectangulo = new Rectangulo(10, 15)
 
 console.log(primerRectangulo);

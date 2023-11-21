@@ -9,9 +9,9 @@ objeto.apadar()     l auto se apagó
 */
 
 let auto = {
-    color: '',
-    marca: '',
-    modelo: '',
+    color: 'Gris Oscuro',
+    marca: 'Peugeot',
+    modelo: '207',
     encender: function (){
         document.write(`<p>El auto está encendido.</p>`)
     },
